@@ -1,0 +1,13 @@
+[kart@ip-172-31-81-158 ~]$ mkdir home
+[kart@ip-172-31-81-158 ~]$ ls -l
+total 0
+drwxrwxr-x 2 kart kart 6 Feb 10 11:12 home
+[kart@ip-172-31-81-158 ~]$ cd home
+[kart@ip-172-31-81-158 home]$ touch demo.txt
+[kart@ip-172-31-81-158 home]$ ls -l
+total 0
+-rw-rw-r-- 1 kart kart 0 Feb 10 11:13 demo.txt
+[kart@ip-172-31-81-158 home]$ chmod 467 demo.txt
+[kart@ip-172-31-81-158 home]$ ls -l
+total 0
+-r--rw-rwx 1 kart kart 0 Feb 10 11:13 demo.txt
